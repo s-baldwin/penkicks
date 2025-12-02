@@ -135,40 +135,33 @@ def build_mdp_events(df):
         kicker_actions, keeper_actions = infer_current_actions(group)
 
         for i, row in group.iterrows():
-            state_token = token_from_row(row)
-            curr_kick = kicker_actions[i]  # 'L' or 'R' or None
-            curr_dive = keeper_actions[i]
-            # compute next state token deterministically
-            next_state = None
-            if curr_kick is not None and curr_dive is not None:
-                next_state = build_next_state_token(curr_kick, curr_dive, state_token)
+         state_token = token_from_row(row)
+         curr_kick = kicker_actions[i]  # 'L' or 'R' or None
+         curr_dive = keeper_actions[i]
 
-            # reward handling: detect common outcome columns
+        # compute next state
+         next_state = None
+         if curr_kick is not None and curr_dive is not None:
+            next_state = build_next_state_token(curr_kick, curr_dive, state_token)
+
+        # ------------------------------------------
+        # Synthetic reward based purely on direction match
+        # ------------------------------------------
+        if curr_kick is None or curr_dive is None:
             reward = np.nan
-            # prefer columns named 'outcome','result','goal','scored'
-            for col in ['outcome','result','goal','scored']:
-                if col in df.columns:
-                    val = row.get(col)
-                    if pd.isna(val):
-                        reward = np.nan
-                    else:
-                        # flexible mapping: 'goal'/'scored'/1 -> 1 ; 'save'/'miss'/0 -> 0
-                        sval = str(val).lower()
-                        if sval in ['1','1.0','goal','scored','g','yes','y','true','t']:
-                            reward = 1
-                        else:
-                            reward = 0
-                    break
+        else:
+            reward = 1 if curr_kick != curr_dive else 0
 
-            events.append({
-                'shootout': sid,
-                'kicknum': int(row['kicknum']),
-                'state': state_token,
-                'action_kicker': curr_kick,
-                'action_keeper': curr_dive,
-                'reward': reward,
-                'next_state': next_state
-            })
+        events.append({
+            'shootout': sid,
+            'kicknum': int(row['kicknum']),
+            'state': state_token,
+            'action_kicker': curr_kick,
+            'action_keeper': curr_dive,
+            'reward': reward,
+            'next_state': next_state
+        })
+
 
     events_df = pd.DataFrame(events)
 
