@@ -1,0 +1,17 @@
+{
+  "n_events": 247,
+  "n_states": 69,
+  "actions": {
+    "kicker": [
+      "L",
+      "R"
+    ],
+    "keeper": [
+      "L",
+      "R"
+    ]
+  },
+  "events_file": "mdp_events.csv",
+  "states_file": "mdp_states.csv",
+  "transitions_file": "mdp_transitions.json"
+}

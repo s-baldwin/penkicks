@@ -1,0 +1,269 @@
+{
+  "('LXX_LXX', 'L', 'R')": {
+    "LLX_RLX": 1.0
+  },
+  "('LLX_RLX', 'R', 'R')": {
+    "RLL_RRL": 1.0
+  },
+  "('RLL_RRL', 'L', 'L')": {
+    "LRL_LRR": 1.0
+  },
+  "('RXX_RXX', 'R', 'R')": {
+    "RRX_RRX": 1.0
+  },
+  "('RRX_RRX', 'R', 'L')": {
+    "RRR_LRR": 1.0
+  },
+  "('RXX_LXX', 'R', 'L')": {
+    "RRX_LLX": 1.0
+  },
+  "('RRX_LLX', 'L', 'R')": {
+    "LRR_RLL": 1.0
+  },
+  "('LRR_RLL', 'L', 'L')": {
+    "LLR_LRL": 1.0
+  },
+  "('RXX_RXX', 'L', 'R')": {
+    "LRX_RRX": 1.0
+  },
+  "('LRX_RRX', 'R', 'R')": {
+    "RLR_RRR": 1.0
+  },
+  "('RLR_RRR', 'R', 'R')": {
+    "RRL_RRR": 1.0
+  },
+  "('RRL_RRR', 'R', 'R')": {
+    "RRR_RRR": 1.0
+  },
+  "('LXX_RXX', 'R', 'L')": {
+    "RLX_LRX": 1.0
+  },
+  "('LRX_RRX', 'L', 'R')": {
+    "LLR_RRR": 1.0
+  },
+  "('LXX_RXX', 'L', 'L')": {
+    "LLX_LRX": 1.0
+  },
+  "('LLX_LRX', 'R', 'L')": {
+    "RLL_LLR": 1.0
+  },
+  "('RLL_LLR', 'L', 'R')": {
+    "LRL_RLL": 1.0
+  },
+  "('LRL_RLL', 'L', 'R')": {
+    "LLR_RRL": 1.0
+  },
+  "('RXX_RXX', 'L', 'L')": {
+    "LRX_LRX": 1.0
+  },
+  "('LRX_LRX', 'R', 'R')": {
+    "RLR_RLR": 1.0
+  },
+  "('RLR_RLR', 'R', 'R')": {
+    "RRL_RRL": 1.0
+  },
+  "('RXX_LXX', 'R', 'R')": {
+    "RRX_RLX": 1.0
+  },
+  "('RRX_RLX', 'L', 'L')": {
+    "LRR_LRL": 1.0
+  },
+  "('LRX_LRX', 'L', 'L')": {
+    "LLR_LLR": 1.0
+  },
+  "('RXX_LXX', 'L', 'L')": {
+    "LRX_LLX": 1.0
+  },
+  "('LRX_LLX', 'R', 'R')": {
+    "RLR_RLL": 1.0
+  },
+  "('RLR_RLL', 'R', 'L')": {
+    "RRL_LRL": 1.0
+  },
+  "('LXX_RXX', 'R', 'R')": {
+    "RLX_RRX": 1.0
+  },
+  "('LXX_LXX', 'R', 'R')": {
+    "RLX_RLX": 1.0
+  },
+  "('RLX_RLX', 'R', 'L')": {
+    "RRL_LRL": 1.0
+  },
+  "('RXX_RXX', 'R', 'L')": {
+    "RRX_LRX": 1.0
+  },
+  "('RRX_LRX', 'R', 'R')": {
+    "RRR_RLR": 1.0
+  },
+  "('LXX_LXX', 'R', 'L')": {
+    "RLX_LLX": 1.0
+  },
+  "('RLX_LLX', 'L', 'R')": {
+    "LRL_RLL": 1.0
+  },
+  "('RXX_LXX', 'L', 'R')": {
+    "LRX_RLX": 1.0
+  },
+  "('LRX_RLX', 'R', 'R')": {
+    "RLR_RRL": 1.0
+  },
+  "('RRX_RLX', 'R', 'L')": {
+    "RRR_LRL": 1.0
+  },
+  "('RRR_LRL', 'L', 'L')": {
+    "LRR_LLR": 1.0
+  },
+  "('LRX_LLX', 'R', 'L')": {
+    "RLR_LLL": 1.0
+  },
+  "('RLR_LLL', 'R', 'L')": {
+    "RRL_LLL": 1.0
+  },
+  "('RRX_RLX', 'R', 'R')": {
+    "RRR_RRL": 1.0
+  },
+  "('RRR_RRL', 'L', 'L')": {
+    "LRR_LRR": 1.0
+  },
+  "('RLX_LRX', 'R', 'R')": {
+    "RRL_RLR": 1.0
+  },
+  "('RRL_RLR', 'L', 'R')": {
+    "LRR_RRL": 1.0
+  },
+  "('LRX_LRX', 'L', 'R')": {
+    "LLR_RLR": 1.0
+  },
+  "('LLR_RLR', 'L', 'R')": {
+    "LLL_RRL": 1.0
+  },
+  "('LXX_LXX', 'L', 'L')": {
+    "LLX_LLX": 1.0
+  },
+  "('LLX_LLX', 'R', 'R')": {
+    "RLL_RLL": 1.0
+  },
+  "('RLL_RLL', 'R', 'R')": {
+    "RRL_RRL": 1.0
+  },
+  "('RRX_LLX', 'R', 'L')": {
+    "RRR_LLL": 1.0
+  },
+  "('RRR_LLL', 'R', 'R')": {
+    "RRR_RLL": 1.0
+  },
+  "('LXX_RXX', 'L', 'R')": {
+    "LLX_RRX": 1.0
+  },
+  "('LLX_RRX', 'L', 'R')": {
+    "LLL_RRR": 1.0
+  },
+  "('LLL_RRR', 'L', 'R')": {
+    "LLL_RRR": 1.0
+  },
+  "('LLL_RRR', 'R', 'L')": {
+    "RLL_LRR": 1.0
+  },
+  "('RLL_LRR', 'L', 'L')": {
+    "LRL_LLR": 1.0
+  },
+  "('LRL_LLR', 'R', 'L')": {
+    "RLR_LLL": 1.0
+  },
+  "('RRR_RRL', 'R', 'R')": {
+    "RRR_RRR": 1.0
+  },
+  "('LLR_RLR', 'R', 'L')": {
+    "RLL_LRL": 1.0
+  },
+  "('LRX_RLX', 'L', 'R')": {
+    "LLR_RRL": 1.0
+  },
+  "('LLR_RRL', 'R', 'R')": {
+    "RLL_RRR": 1.0
+  },
+  "('RLL_RRR', 'L', 'R')": {
+    "LRL_RRR": 1.0
+  },
+  "('RRX_RRX', 'L', 'L')": {
+    "LRR_LRR": 1.0
+  },
+  "('LLX_RLX', 'L', 'R')": {
+    "LLL_RRL": 1.0
+  },
+  "('LLL_RRL', 'R', 'R')": {
+    "RLL_RRR": 1.0
+  },
+  "('RLL_RRR', 'R', 'L')": {
+    "RRL_LRR": 1.0
+  },
+  "('RRL_RLR', 'R', 'R')": {
+    "RRR_RRL": 1.0
+  },
+  "('RRR_RRL', 'R', 'L')": {
+    "RRR_LRR": 1.0
+  },
+  "('RRR_LRR', 'L', 'R')": {
+    "LRR_RLR": 1.0
+  },
+  "('RRX_LRX', 'L', 'L')": {
+    "LRR_LLR": 1.0
+  },
+  "('LRR_LLR', 'L', 'L')": {
+    "LLR_LLL": 1.0
+  },
+  "('LLX_RRX', 'R', 'L')": {
+    "RLL_LRR": 1.0
+  },
+  "('LRX_RRX', 'L', 'L')": {
+    "LLR_LRR": 1.0
+  },
+  "('LLR_LRR', 'R', 'R')": {
+    "RLL_RLR": 1.0
+  },
+  "('RLX_RLX', 'L', 'R')": {
+    "LRL_RRL": 1.0
+  },
+  "('LRL_RRL', 'R', 'R')": {
+    "RLR_RRR": 1.0
+  },
+  "('RLX_RLX', 'L', 'L')": {
+    "LRL_LRL": 1.0
+  },
+  "('RLX_LRX', 'R', 'L')": {
+    "RRL_LLR": 1.0
+  },
+  "('RLX_RRX', 'R', 'R')": {
+    "RRL_RRR": 1.0
+  },
+  "('RRX_LRX', 'L', 'R')": {
+    "LRR_RLR": 1.0
+  },
+  "('LLX_RLX', 'R', 'L')": {
+    "RLL_LRL": 1.0
+  },
+  "('RLL_LRL', 'L', 'L')": {
+    "LRL_LLR": 1.0
+  },
+  "('RLR_RLR', 'R', 'L')": {
+    "RRL_LRL": 1.0
+  },
+  "('RRX_RLX', 'L', 'R')": {
+    "LRR_RRL": 1.0
+  },
+  "('LRR_RRL', 'L', 'R')": {
+    "LLR_RRR": 1.0
+  },
+  "('LLR_RRR', 'L', 'L')": {
+    "LLL_LRR": 1.0
+  },
+  "('LLX_LLX', 'R', 'L')": {
+    "RLL_LLL": 1.0
+  },
+  "('RRL_RLR', 'L', 'L')": {
+    "LRR_LRL": 1.0
+  },
+  "('LRR_LRL', 'L', 'R')": {
+    "LLR_RLR": 1.0
+  }
+}
